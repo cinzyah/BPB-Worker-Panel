@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 23 * * *" # 每天凌晨23点运行
+    - cron: "0 22 * * *" # 每天凌晨6点运行（北京时间）
   workflow_dispatch:
     inputs:
       force_update:
